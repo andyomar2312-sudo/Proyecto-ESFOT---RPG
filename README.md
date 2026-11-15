@@ -27,15 +27,16 @@ ESFOT-RPG/
 │   │   └── GestorJuego.java
 │   ├── Main.java        (menú e interacción por consola)
 │   
-├── docs/
-│   ├── resultado_pruebas.txt
-│   ├── entrada_demo.txt
-│   └── ejemplo_ejecucion.txt
+| 
 ├── capturas/
-│   ├── 01_creacion.png
-│   ├── 02_busqueda.png
-│   ├── 03_habilidades.png
-│   └── 04_combate.png
+│   ├── Captura1.png
+│   ├── Captura2.png
+│   ├── Captura3.png
+│   ├── Captura4.png
+|   ├── Captura5.png
+|   ├── Captura6.png
+|   ├── Captura7.png
+|   └── uml_clases_esfot_rpg.png
 └── README.md
 ```
 
@@ -204,39 +205,10 @@ classDiagram
     Personaje <|-- Arquero
     Guerrero <|-- Paladin
     GestorJuego o-- "*" Personaje
-    Main ..> GestorJuego : usa
-    Main ..> Paladin : instanceof
-    Main ..> Mago : instanceof
-    Main ..> Arquero : instanceof
+   
 ```
 
-## 🧪 Pruebas mínimas
 
-`Pruebas.java` ejecuta de forma automática las 10 pruebas mínimas del enunciado (49 verificaciones). Resultado completo en [`docs/resultado_pruebas.txt`](docs/resultado_pruebas.txt):
-
-```
-RESULTADO: 49 pruebas correctas, 0 fallidas.
-```
-
-Una sesión completa del menú (creación, duplicado, dato inválido, búsqueda, ataques, habilidades, combate y combate rechazado) está en [`docs/ejemplo_ejecucion.txt`](docs/ejemplo_ejecucion.txt).
-
-## 📸 Capturas de pantalla
-
-**1. Creación de los cuatro tipos de personaje y listado (opciones 1 a 5)**
-
-![Creación de personajes](capturas/01_creacion.png)
-
-**2. Búsqueda por nombre, incluyendo uno inexistente (opción 6)**
-
-![Búsqueda de personajes](capturas/02_busqueda.png)
-
-**3. Habilidades especiales: hechizo, flecha, curación y escudo (opción 8)**
-
-![Habilidades especiales](capturas/03_habilidades.png)
-
-**4. Combate completo con anuncio del ganador (opción 9)**
-
-![Combate por turnos](capturas/04_combate.png)
 
 ## ❓ Preguntas de análisis
 
