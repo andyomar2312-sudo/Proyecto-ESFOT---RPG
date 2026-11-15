@@ -1,0 +1,488 @@
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre: Nivel: Vida máxima: Ataque: Defensa: Fuerza: Personaje creado correctamente:
+----------------------------------
+Tipo:     Guerrero
+Nombre:   Thor
+Nivel:    5
+Vida:     100/100
+Ataque:   20
+Defensa:  5
+Estado:   Vivo
+Fuerza:   8
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre: Nivel: Vida máxima: Ataque: Defensa: Maná: Personaje creado correctamente:
+----------------------------------
+Tipo:     Mago
+Nombre:   Merlin
+Nivel:    5
+Vida:     80/80
+Ataque:   15
+Defensa:  3
+Estado:   Vivo
+Maná:     30
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre: Nivel: Vida máxima: Ataque: Defensa: Flechas: Personaje creado correctamente:
+----------------------------------
+Tipo:     Arquero
+Nombre:   Legolas
+Nivel:    4
+Vida:     90/90
+Ataque:   18
+Defensa:  4
+Estado:   Vivo
+Flechas:  2
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre: Nivel: Vida máxima: Ataque: Defensa: Fuerza: Energía sagrada: Personaje creado correctamente:
+----------------------------------
+Tipo:     Paladin
+Nombre:   Arturo
+Nivel:    6
+Vida:     110/110
+Ataque:   16
+Defensa:  7
+Estado:   Vivo
+Fuerza:   6
+Energía sagrada: 40
+Escudo:   Inactivo
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre: Ya existe un personaje con ese nombre. No se creó el personaje.
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre: Nivel: Vida máxima: Ataque: Defensa: Fuerza: Datos inválidos: El nivel debe ser mayor que 0.
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: Entrada inválida. Ingrese un número entero.
+Seleccione una opción: 
+----------------------------------
+Tipo:     Guerrero
+Nombre:   Thor
+Nivel:    5
+Vida:     100/100
+Ataque:   20
+Defensa:  5
+Estado:   Vivo
+Fuerza:   8
+----------------------------------
+Tipo:     Mago
+Nombre:   Merlin
+Nivel:    5
+Vida:     80/80
+Ataque:   15
+Defensa:  3
+Estado:   Vivo
+Maná:     30
+----------------------------------
+Tipo:     Arquero
+Nombre:   Legolas
+Nivel:    4
+Vida:     90/90
+Ataque:   18
+Defensa:  4
+Estado:   Vivo
+Flechas:  2
+----------------------------------
+Tipo:     Paladin
+Nombre:   Arturo
+Nivel:    6
+Vida:     110/110
+Ataque:   16
+Defensa:  7
+Estado:   Vivo
+Fuerza:   6
+Energía sagrada: 40
+Escudo:   Inactivo
+----------------------------------
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre a buscar: ----------------------------------
+Tipo:     Arquero
+Nombre:   Legolas
+Nivel:    4
+Vida:     90/90
+Ataque:   18
+Defensa:  4
+Estado:   Vivo
+Flechas:  2
+----------------------------------
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre a buscar: No existe un personaje llamado "Zeus".
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del atacante: Nombre del objetivo: Bonificación (0 = ataque normal): Thor ataca a Merlin
+  Daño efectivo: 25
+  Vida de Merlin: 55/80
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del atacante: Nombre del objetivo: Bonificación (0 = ataque normal): Thor ataca a Merlin
+  Daño efectivo: 27
+  Vida de Merlin: 28/80
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del personaje que usará la habilidad: Nombre del objetivo del hechizo: Merlin lanza un hechizo a Thor
+  Daño efectivo: 15
+  Vida de Thor: 85/100
+  Maná restante: 20
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del personaje que usará la habilidad: Nombre del objetivo de la flecha: Legolas dispara una flecha a Arturo
+  Daño efectivo: 16
+  Vida de Arturo: 94/110
+  Flechas restantes: 1
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del personaje que usará la habilidad: 1. Curar
+2. Activar escudo
+Seleccione la habilidad: Escudo activado: Arturo reducirá en 5 el daño del próximo ataque.
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del personaje que usará la habilidad: 1. Curar
+2. Activar escudo
+Seleccione la habilidad: Nombre del personaje a curar: Arturo cura a Thor y recupera 15 de vida.
+Vida de Thor: 100/100
+Energía sagrada restante: 30
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del personaje que usará la habilidad: Thor (Guerrero) no tiene una habilidad especial.
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del primer personaje: Nombre del segundo personaje: 
+===== COMBATE RPG =====
+Thor (Guerrero) vs Merlin (Mago)
+Turno 1:
+Thor ataca a Merlin
+  Daño efectivo: 25
+  Vida de Merlin: 3/80
+Turno 2:
+Merlin ataca a Thor
+  Daño efectivo: 10
+  Vida de Thor: 90/100
+Turno 3:
+Thor ataca a Merlin
+  Daño efectivo: 3
+  Vida de Merlin: 0/80
+  Merlin ha sido derrotado.
+GANADOR: Thor
+=======================
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+Nombre del primer personaje: Nombre del segundo personaje: No se puede iniciar un combate con un personaje derrotado.
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+----------------------------------
+Tipo:     Guerrero
+Nombre:   Thor
+Nivel:    5
+Vida:     90/100
+Ataque:   20
+Defensa:  5
+Estado:   Vivo
+Fuerza:   8
+----------------------------------
+Tipo:     Arquero
+Nombre:   Legolas
+Nivel:    4
+Vida:     90/90
+Ataque:   18
+Defensa:  4
+Estado:   Vivo
+Flechas:  1
+----------------------------------
+Tipo:     Paladin
+Nombre:   Arturo
+Nivel:    6
+Vida:     94/110
+Ataque:   16
+Defensa:  7
+Estado:   Vivo
+Fuerza:   6
+Energía sagrada: 30
+Escudo:   Activo
+----------------------------------
+
+====================================
+       ESFOT RPG - JAVA POO
+====================================
+1. Crear Guerrero
+2. Crear Mago
+3. Crear Arquero
+4. Crear Paladín
+5. Mostrar personajes
+6. Buscar personaje por nombre
+7. Atacar a otro personaje
+8. Utilizar habilidad especial
+9. Simular combate por turnos
+10. Mostrar personajes vivos
+11. Salir
+Seleccione una opción: 
+¡Hasta pronto!

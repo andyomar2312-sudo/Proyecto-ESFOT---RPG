@@ -1,0 +1,218 @@
+
+=== 1. Crear un personaje de cada tipo y mostrar sus atributos ===
+  [OK]    Se registra Thor
+  [OK]    Se registra Merlin
+  [OK]    Se registra Legolas
+  [OK]    Se registra Arturo
+----------------------------------
+Tipo:     Guerrero
+Nombre:   Thor
+Nivel:    5
+Vida:     100/100
+Ataque:   20
+Defensa:  5
+Estado:   Vivo
+Fuerza:   8
+----------------------------------
+Tipo:     Mago
+Nombre:   Merlin
+Nivel:    5
+Vida:     80/80
+Ataque:   15
+Defensa:  3
+Estado:   Vivo
+Maná:     30
+----------------------------------
+Tipo:     Arquero
+Nombre:   Legolas
+Nivel:    4
+Vida:     90/90
+Ataque:   18
+Defensa:  4
+Estado:   Vivo
+Flechas:  3
+----------------------------------
+Tipo:     Paladin
+Nombre:   Arturo
+Nivel:    6
+Vida:     110/110
+Ataque:   16
+Defensa:  7
+Estado:   Vivo
+Fuerza:   6
+Energía sagrada: 40
+Escudo:   Inactivo
+
+=== 2. Rechazar nombre duplicado y estadísticas inválidas ===
+  [OK]    Nombre duplicado rechazado
+  [OK]    Lista sigue con 4 personajes
+  [OK]    Nombre vacío lanza excepción
+  [OK]    Nivel 0 lanza excepción
+  [OK]    Vida máxima negativa lanza excepción
+  [OK]    Ataque negativo lanza excepción
+  [OK]    Defensa negativa lanza excepción
+  [OK]    setVida fuera de rango lanza excepción
+
+=== 3. Ataque normal y ataque con bonificación ===
+  [OK]    Ataque normal: 100 - (20-5) = 85
+  [OK]    Ataque con bonificación: 85 - (30-5) = 60
+  [OK]    Bonificación negativa lanza excepción
+
+=== 4. Daño respeta la defensa y la vida nunca es negativa ===
+  [OK]    Daño mínimo de 1 con defensa altísima
+  [OK]    Vida no baja de 0
+Fragil ya está derrotado.
+  [OK]    No se puede atacar a un derrotado
+  [OK]    Guerrero suma fuerza: 100 - (10+5) = 85
+
+=== 5. Hechizo con maná suficiente e insuficiente ===
+  [OK]    Hechizo con maná suficiente
+  [OK]    Hechizo causa 20 de daño
+  [OK]    Se consumen 10 de maná (15 -> 5)
+Mago2 no tiene maná suficiente (necesita 10, tiene 5).
+  [OK]    Hechizo con maná insuficiente falla
+  [OK]    No se consume maná al fallar
+  [OK]    El objetivo no recibe daño al fallar
+
+=== 6. Disparar hasta agotar las flechas ===
+  [OK]    Flecha 1
+  [OK]    Flecha 2
+  [OK]    Cada flecha causa ataque+5 = 15 (500 -> 470)
+Arq no tiene flechas.
+  [OK]    Sin flechas no dispara
+  [OK]    Flechas en 0 y vida del objetivo intacta
+
+=== 7. Curación sin superar vida máxima y escudo del Paladín ===
+  [OK]    Curar a alguien con 90/100
+  [OK]    No supera la vida máxima (100)
+  [OK]    Energía consumida 25 -> 15
+  [OK]    Curar a alguien con 50/100
+  [OK]    Recupera 20 (50 -> 70)
+  [OK]    Energía 15 -> 5
+Pal no tiene energía sagrada suficiente (necesita 10, tiene 5).
+  [OK]    Energía insuficiente: no cura
+  [OK]    Energía no se consume al fallar
+Muerto está derrotado y no puede ser curado.
+  [OK]    No se cura a un derrotado
+  [OK]    Sin escudo: 100 - 18 = 82
+  [OK]    Con escudo: 82 - 13 = 69
+  [OK]    El escudo se desactiva tras un ataque
+  [OK]    Siguiente ataque sin escudo: 69 - 18 = 51
+  [OK]    Escudo no genera daño negativo (51 -> 50)
+
+=== 8. Mostrar personajes mediante List<Personaje> ===
+----------------------------------
+Tipo:     Guerrero
+Nombre:   Thor
+Nivel:    5
+Vida:     100/100
+Ataque:   20
+Defensa:  5
+Estado:   Vivo
+Fuerza:   8
+----------------------------------
+Tipo:     Mago
+Nombre:   Merlin
+Nivel:    5
+Vida:     80/80
+Ataque:   15
+Defensa:  3
+Estado:   Vivo
+Maná:     30
+----------------------------------
+Tipo:     Arquero
+Nombre:   Legolas
+Nivel:    4
+Vida:     90/90
+Ataque:   18
+Defensa:  4
+Estado:   Vivo
+Flechas:  3
+----------------------------------
+Tipo:     Paladin
+Nombre:   Arturo
+Nivel:    6
+Vida:     110/110
+Ataque:   16
+Defensa:  7
+Estado:   Vivo
+Fuerza:   6
+Energía sagrada: 40
+Escudo:   Inactivo
+----------------------------------
+
+=== 9. Buscar por nombre usando HashMap ===
+  [OK]    Busca 'Merlin'
+  [OK]    Busca 'legolas' (sin distinguir mayúsculas)
+  [OK]    Nombre inexistente devuelve null
+
+=== 10. Combate completo con ganador ===
+
+===== COMBATE RPG =====
+Thor (Guerrero) vs Merlin (Mago)
+Turno 1:
+Thor ataca a Merlin
+  Daño efectivo: 25
+  Vida de Merlin: 55/80
+Turno 2:
+Merlin ataca a Thor
+  Daño efectivo: 10
+  Vida de Thor: 90/100
+Turno 3:
+Thor ataca a Merlin
+  Daño efectivo: 25
+  Vida de Merlin: 30/80
+Turno 4:
+Merlin ataca a Thor
+  Daño efectivo: 10
+  Vida de Thor: 80/100
+Turno 5:
+Thor ataca a Merlin
+  Daño efectivo: 25
+  Vida de Merlin: 5/80
+Turno 6:
+Merlin ataca a Thor
+  Daño efectivo: 10
+  Vida de Thor: 70/100
+Turno 7:
+Thor ataca a Merlin
+  Daño efectivo: 5
+  Vida de Merlin: 0/80
+  Merlin ha sido derrotado.
+GANADOR: Thor
+=======================
+  [OK]    Exactamente uno quedó derrotado
+  [OK]    Los cambios se conservan en los objetos registrados
+No se puede iniciar un combate con un personaje derrotado.
+----------------------------------
+Tipo:     Guerrero
+Nombre:   Thor
+Nivel:    5
+Vida:     70/100
+Ataque:   20
+Defensa:  5
+Estado:   Vivo
+Fuerza:   8
+----------------------------------
+Tipo:     Arquero
+Nombre:   Legolas
+Nivel:    4
+Vida:     90/90
+Ataque:   18
+Defensa:  4
+Estado:   Vivo
+Flechas:  3
+----------------------------------
+Tipo:     Paladin
+Nombre:   Arturo
+Nivel:    6
+Vida:     110/110
+Ataque:   16
+Defensa:  7
+Estado:   Vivo
+Fuerza:   6
+Energía sagrada: 40
+Escudo:   Inactivo
+----------------------------------
+
+RESULTADO: 49 pruebas correctas, 0 fallidas.
